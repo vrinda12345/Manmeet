@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +10,16 @@
   <!-- simple style -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
-
+<style>
+	a
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+	
+</style>
 <body>
-  <div id="wrapper">
+  <div class="container-fluid" id="wrapper">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -19,7 +27,9 @@
           <h2 class="subtitle">Welcome To CapBook</h2>
         </div>
       </div>
+	</div>
 
+	<div class="container">
       <div class="row " id="loginForm">
         <div class="col-md-8 col-md-offset-2">
           <h3 style="color:#fff;">Login Here</h3>          
@@ -44,7 +54,7 @@
           </div>
         </form>
       </div>
-	  
+	 
 	  <div id="forgotPassword" style="display:none;">
 		  <h3 style="color:#fff;"> Reset Password</h3>
 		  <form action="" method="post" role="form">
@@ -64,20 +74,22 @@
 					<button type="button"  class="btn btn-success">Change Password</button>                
 				  </div>
 				  <font color="white">
-				  <a href="LoginPage.html">Sign In using Different User</a><a href="RegistrationPage.html"> &nbsp Sign Up for CapBook</a></font>
+				  <a href="LoginPage.html">Sign In using Different User</a>
+				  <a href="RegistrationPage.html"> &nbsp Sign Up for CapBook</a></font>
 				</div>
 			  </div>
 		   </form>
 	   </div>
+	 </div>
 	  
-      <div class="row">
+      <footer class="container" style="bottom:0px;">
         <div class="col-lg-6 col-lg-offset-3">
           <p class="copyright">&copy; CapBook - All Rights Reserved</p>
           <div class="credits">
             Designed by Team8
           </div>
         </div>
-      </div>
+      </footer>
     </div>
   </div>
   
